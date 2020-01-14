@@ -13,7 +13,7 @@ end
 
 #Third Party
 
-#source 'https://github.com/SummitFH/FHSpecRepo.git'
+source 'https://github.com/SummitFH/FHSpecRepo.git'
 
 target "LLToastDemo" do
     project 'LLToastDemo.project'
