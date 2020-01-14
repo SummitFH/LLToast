@@ -1,0 +1,28 @@
+PODS:
+  - LLToast (0.0.1.0):
+    - MBProgressHUD (~> 1.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+
+DEPENDENCIES:
+  - LLToast (from `../`)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  LLToast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLToast: 0eb0b3b9b2cddf395045d06287fa435046e4aa4e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+
+PODFILE CHECKSUM: 6fcca787c1077712733bdf3212d30decb430581e
+
+COCOAPODS: 1.8.4

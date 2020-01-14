@@ -1,0 +1,29 @@
+{
+  "name": "LLToast",
+  "version": "0.0.1.0",
+  "summary": "弹框toast组件",
+  "homepage": "https://github.com/SummitFH/FHSpecRepo.git",
+  "license": "MIT",
+  "authors": {
+    "Summit": "xxxqq.com"
+  },
+  "social_media_url": "",
+  "source": {
+    "git": "git@github.com:SummitFH/FHSpecRepo.git",
+    "tag": "0.0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "LLToast/LLToast/**/*.{h,m}",
+  "exclude_files": "LLToast/LLToast/info.plist",
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "MBProgressHUD": [
+      "~> 1.1.0"
+    ]
+  }
+}

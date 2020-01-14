@@ -1,0 +1,27 @@
+#Setting Info
+install! 'cocoapods', :warn_for_multiple_pod_sources => false
+platform :ios, '8.0'
+inhibit_all_warnings!
+use_frameworks!
+
+workspace 'LLToastDemo.xcworkspace'
+#project 'LLToastDemo.xcodeproj'
+
+pre_install do |installer|
+    Pod::PodTarget.send(:define_method, :static_framework?) { return true }
+end
+
+#Third Party
+
+#source 'https://github.com/SummitFH/FHSpecRepo.git'
+
+target "LLToastDemo" do
+    project 'LLToastDemo.project'
+    pod 'LLToast', :path => '../'
+    pod 'Masonry', '~> 1.1.0'
+end
+
+target "LLToast" do
+    project '../LLToast/LLToast.project'
+    pod 'MBProgressHUD', '~> 1.1.0'
+end

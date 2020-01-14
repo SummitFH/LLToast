@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-LLToastDemo/Pods-LLToastDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LLToast/LLToast.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework

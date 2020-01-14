@@ -1,0 +1,6 @@
+framework module Pods_LLToastDemo {
+  umbrella header "Pods-LLToastDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

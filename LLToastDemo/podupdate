@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#脚本所在目录
+BASEDIR=$(dirname $0)
+cd $BASEDIR
+
+echo Setup cocoapods private repo:
+repos=`pod repo list`
+if echo $repos | grep -q LLSpecRepo; then
+    echo -e 'LLSpecRepo: \nprivate cocoapods was added.'
+else
+    echo -e 'LLSpecRepo: \nadding private cocoapods repo.'
+    pod repo add LLSpecRepo git@github.com:SummitFH/FHSpecRepo.git
+fi
+echo
+
+echo "=========开始更新私有仓库======="
+pod repo update LLSpecRepo
+
+echo "=========开始更新Pod工程======="
+pod update --no-repo-update
