@@ -10,7 +10,7 @@ if echo $repos | grep -q LLSpecRepo; then
     echo -e 'LLSpecRepo: \nprivate cocoapods was added.'
 else
     echo -e 'LLSpecRepo: \nadding private cocoapods repo.'
-    pod repo add LLSpecRepo git@github.com:SummitFH/FHSpecRepo.git
+    pod repo add LLSpecRepo https://github.com/SummitFH/FHSpecRepo.git
 fi
 echo
 
