@@ -1,6 +1,6 @@
     Pod::Spec.new do |spec|
     spec.name         = 'LLToast'
-    spec.version      = '0.0.1.0' 
+    spec.version      = '0.0.1.1' 
     spec.summary      = '弹框toast组件'
     spec.homepage     = "https://github.com/SummitFH/FHSpecRepo.git"
     spec.license      = "MIT"
